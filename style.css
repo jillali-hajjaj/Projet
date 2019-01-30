@@ -1,0 +1,189 @@
+h3 {
+  color:black; 
+  background-color: #FF5850 ;
+  border: 1px solid #CCCCCC;
+}
+
+h2 {
+  color:black; 
+  background-color: #5BBDBF;
+  text-align: center;
+}
+
+body {
+  width:900px;
+  background-image:url("/home/ann1/hajjajj/Projet/fond.jpg");
+  margin: auto;
+}
+
+.blue {
+	background-color: #5BBDBF;
+}
+
+.red {
+	background-color: #FF5850
+}
+
+.skill {
+	color:red;
+	font-style:italic;
+}
+#beware {
+	width:300px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 10px;
+  border-left: solid 2px black;
+
+}
+
+a:visited {
+  color: #0088FF;
+}
+
+a:hover {
+  color: orange;
+} 
+
+thead {
+  background-color: #00AAFF;
+}
+
+thead .skill {
+  color:#640051 ;
+  /*padding: 10px;*/ 
+  margin: 0 5px;
+}
+
+tbody tr:nth-child(even){
+  background-color: #CCC;
+}
+
+tbody tr:nth-child(odd){
+  background-color: white;
+}
+
+table {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+p {
+  margin: 30px 0px;
+}
+
+#jeune {
+  float: left;
+  width:70px;
+}
+
+#twitter {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#facebook {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+}
+
+header {
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+}
+
+nav {
+  margin: auto;
+  width: 79%;
+  height: 38px;
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
+  flex-direction:row;
+}
+
+article {
+  width: 50%;
+  background-color: gray;
+}
+
+aside {
+  width: 23%;
+  margin-left: 476px;
+  height: 785px;
+  position: fixed;
+  opacity : 0.6;
+  -moz-opacity : 0.6;
+  -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+  filter : alpha(opacity=50);
+}
+
+nav>div {
+  background-color: #5BBDBF;
+  display: inline;
+  position: relative;
+  align-items:flex-start;
+
+}
+
+nav a {
+  background-color: #c0d5c2;
+}
+
+.ppg {
+  clear: left;
+}
+
+header>nav a.bordacc:first-child {
+  border-left: none;
+}
+
+.puce {
+  visibility: hidden;
+}
+
+nav>div:hover .puce {
+  visibility:visible;
+}
+
+.submenu {
+  position: absolute;
+  top:19px;
+  left:0px;
+  background-color: #aca;
+  display: none;
+  border: 15px double orange;
+  sty
+}
+
+
+nav>div:hover .submenu {
+  display: block;
+}
+
+nav div {
+  width: 100px;
+  display: flex;
+  align-items:stretch;
+  flex-direction:column;
+}
+
+div{
+  align-items:stretch;
+}
+
+nav>div:hover>.submenu>div>a {
+  font-style: italic;
+  color: red;
+}

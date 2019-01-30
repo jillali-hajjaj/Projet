@@ -1,0 +1,309 @@
+body {
+	
+	background-image: url("../images/prop.gif");
+	background-size:cover;
+	background-attachment: fixed;
+	background-color: black;
+	text-align: center;
+	margin: 0 auto;
+	margin:30px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+nav {
+    width : 100%;
+    height: 59px;
+    display: flex;
+    background-color: #424558;
+    border: solid black 3px;
+    /*background-image: url("../images/bann.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    opacity : 0.8;
+}
+
+nav>div {
+ 
+  display: inline;
+  position: relative;
+  }
+
+nav>div:hover .submenu {
+  display: block;
+}
+
+nav>div:hover>.submenu>div>a {
+  font-style: italic;
+  color: #FF8000;
+}
+
+.submenu {
+  position: absolute;
+  top:19px;
+  left:0px;
+  background-color: white;
+  display: none;
+  border: solid black 3px;
+  
+}
+
+a {
+	color: #FF8000;
+	font-size: 18px;
+	font-weight: bold;
+	display:flex;
+	text-decoration: none;
+}
+
+div {
+	margin: auto;
+}
+
+header {
+width: 100%;
+display: flex;
+}
+
+/* p {
+	box-shadow: 4px 4px 8px black;
+	text-align: center;
+	background-color: white;
+}*/
+
+#container{
+	height:100%;
+	margin:auto;
+}
+
+.first
+{
+	float:left;
+    background-color:rgba(60, 71, 73, 0.1);
+    width:60%;
+    box-shadow: 4px 4px 8px black;
+    color: white;
+}
+.second
+{
+    background-color: white;
+    float:right;
+    width:35%;
+    box-shadow: 4px 4px 8px black;
+}
+
+#third{
+	float: left;
+	background-color: white;
+	width: 40%;
+	border: solid black 2px;
+}
+
+#four{
+	float: left;
+	background-color: white;
+	width: 25%;
+	border: solid black 2px;
+}
+
+.img{
+	position:relative; 
+	left:160px;
+
+}
+
+
+.table{
+	text-align: center;
+}
+
+thead
+{
+ box-shadow: 4px 4px 8px black;
+}
+
+tbody
+{
+	color:white;
+ box-shadow: 4px 4px 8px black;
+}
+
+thead .skill
+{
+ color:#2A1B0A;	
+}
+
+tbody>tr:nth-child(odd){background-color:rgba(60, 71, 73, 0);}
+tbody>tr:nth-child(even) {background-color:rgba(60, 71, 73, 0);}
+tbody>tr{text-align: center}
+tr
+
+{
+
+ border: 5px solid green;
+
+}
+.voiture{
+	width: 200px;
+}
+h3
+{
+	color: #FF8000;
+	text-align: center;
+	background-color: white;
+	box-shadow: 4px 4px 8px black;
+}
+
+
+.puce {
+  visibility: hidden;
+}
+
+nav>div>a:hover .puce {
+  visibility:visible;
+}
+
+
+.bg {
+	color: white;
+	background-color:rgba(60, 71, 73, 0.3);
+	box-shadow: 4px 4px 8px black;
+}
+
+
+main {
+	flex-grow:1;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#copyr {
+	color: gray;
+}
+
+
+
+.questr
+{
+    font-family: "Geo";
+}
+
+
+@font-face{
+	font-family: "Geo";
+	src: url("../font/GeosansLight-Oblique.ttf");
+}
+
+
+
+nav>div>ul {
+	margin:0px;
+	padding:0px;
+}
+
+nav>div>ul>li {
+	float: left;
+	position: relative;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+.submenu2 {
+	display: none;
+}
+
+nav > div > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > div > ul > li > a{
+	padding: 17px 30px;
+	color: #FFF;
+}
+
+nav li:hover .submenu2{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left:0px;
+	padding: 0px;
+}
+
+.submenu2 li {
+	border-bottom: 1px solid #CCC;
+}
+
+
+.submenu2 li a {
+	padding:18px 1px;
+	color: #222538;
+	width: 270px;
+	opacity: 1;
+}
+
+.menu-html:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228,77,38,0.15);
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+
+.menu-html .submenu2{
+	background-color: rgb(230,100,40);
+}
+
+.submenu2 li:hover a{
+	color:#EEE;
+	font-weight: bold;
+}
+
+.Equipe {
+	color : rgb(230,100,40) ;
+}
+
+.Present {
+	color : white;
+}
+
+aside {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.subtitle {
+	color: #836594;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#parentDivCartes {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.divCarte {
+	border: 2px solid #a5a5a5;
+	background-color: rgba(228,77,38,0.15);
+
+}
+
+.divCart
